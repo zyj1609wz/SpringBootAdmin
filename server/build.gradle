@@ -26,4 +26,7 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+
+    //服务端：带UI界面
+    compile 'de.codecentric:spring-boot-admin-starter-server:2.0.0'
 }
