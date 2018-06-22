@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8088"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
